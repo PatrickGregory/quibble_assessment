@@ -1,0 +1,70 @@
+.main-bg {
+    background-color: #DAE0E6;
+}
+
+.link-hover {
+    color: #adb5bd;
+}
+
+.link-hover:hover {
+    background-color: aliceblue;
+    color: #0d6efd;
+}
+
+.avatar-img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.sidebar-responsive {
+    width: 250px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 60px;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+
+.ad-card {
+    aspect-ratio: 1;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.bg-show {
+    height: 20dvh;
+}
+
+.main-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.card{
+    font-size: x-small;
+}
+
+.header-img{
+    height: 85px;
+    width: 85px;
+}
+
+.main-section-lap{
+    margin-top: -10%;
+}
+
+.post-header-img{
+    height: 30px;
+    width: 30px;
+}
+
+.like-btn:hover{
+    background:red;
+}
