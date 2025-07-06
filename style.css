@@ -1,5 +1,5 @@
-.main-bg {
-    background-color: #DAE0E6;
+body {
+    background: #DAE0E6;
 }
 
 .link-hover {
@@ -47,24 +47,46 @@
     margin-bottom: 16px;
 }
 
-.card{
+.card-font {
     font-size: x-small;
 }
 
-.header-img{
+.header-img {
     height: 85px;
     width: 85px;
 }
 
-.main-section-lap{
+.main-section-lap {
     margin-top: -10%;
 }
 
-.post-header-img{
+.post-header-img {
     height: 30px;
     width: 30px;
 }
 
-.like-btn:hover{
-    background:red;
+.like-btn:hover {
+    background: #f8f9fa;
+    color: #FF4500;
+}
+
+.dislike-btn:hover {
+    background: #f8f9fa;
+    color: #7193FF;
+}
+
+.modal-content {
+    margin-top: 10rem;
+}
+
+.reaction-bg:hover {
+    background: #f8f9fa;
+}
+.posts:hover{
+    cursor: pointer;
+    border: 1px solid black;
+ scale: 1.01;
+}
+.post-img{
+    height: 200px;
 }
